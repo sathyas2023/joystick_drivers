@@ -184,7 +184,7 @@ float GameController::convertRawAxisValueToROS(int16_t val, const uint8_t & axis
       ret *= -1;
       break;
   }
-  
+
   return static_cast<float>(ret);
 }
 
